@@ -11,7 +11,7 @@
 	<description>
 		Alternative Username/Password Form for keycloak. Adds 'Alternative' to the original Username/Password and doesn't stop the execution flow if the user is not valid.
 	</description>
-	<url>https://github.com/google/auto/tree/master/factory</url>
+	<url>https://github.com/hatemzidi/keycloak-alternative-usernamepasswordform-authenticator</url>
 
 	<properties>
 		<!-- general settings -->
@@ -90,7 +90,7 @@
 						<manifestEntries>
 							<!-- Adding explicit dependencies to avoid class-loading issues at runtime -->
 							<Dependencies>
-								<![CDATA[org.keycloak.keycloak-common,org.keycloak.keycloak-core,org.keycloak.keycloak-server-spi,org.keycloak.keycloak-server-spi-private,org.apache.httpcomponents,org.keycloak.keycloak-services,org.jboss.logging,javax.api,javax.jms.api,javax.transaction.api,com.fasterxml.jackson.core.jackson-core,com.fasterxml.jackson.core.jackson-annotations,com.fasterxml.jackson.core.jackson-databind]]></Dependencies>
+								<![CDATA[org.keycloak.keycloak-common,org.keycloak.keycloak-core,org.keycloak.keycloak-server-spi,org.keycloak.keycloak-server-spi-private,org.keycloak.keycloak-services,org.jboss.logging]]></Dependencies>
 						</manifestEntries>
 					</archive>
 				</configuration>
