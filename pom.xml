@@ -7,9 +7,10 @@
 	<groupId>com.hatemzidi.sandbox.keycloak</groupId>
 	<artifactId>alternative-usernamepasswordform-authenticator</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	<description>
-		Alternative Username/Password Form for keycloak. Adds 'Alternative' to the original Username/Password and doesn't stop the execution flow if the user is not valid.
+		- Alternative Username/Password Form for keycloak. Adds 'Alternative' to the original Username/Password and doesn't stop the execution flow if the user is not valid.
+		- Alternative Username Form for keycloak. Doesn't stop the flow if the user isn't valid. Best used in a conditional flow.
 	</description>
 	<url>https://github.com/hatemzidi/keycloak-alternative-usernamepasswordform-authenticator</url>
 
